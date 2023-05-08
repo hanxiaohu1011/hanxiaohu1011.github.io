@@ -93,7 +93,5 @@ Interested in contributing to Cayman? We'd love your help. Cayman is an open sou
 
 ## Test another
 
-    ```yml
-    another page: [the another page](https://hanxiaohu1011.github.io/another-page.html)
-    ```
+  [another page](https://hanxiaohu1011.github.io/another-page.html)
 
