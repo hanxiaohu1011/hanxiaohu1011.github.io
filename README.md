@@ -1,4 +1,3 @@
-# The cat theme
 
 ![Thumbnail of cat](cat.png)
 
@@ -19,17 +18,6 @@ To use the Cayman theme:
     ```ruby
     gem "github-pages", group: :jekyll_plugins
     ```
-
-## Customizing
-
-### Configuration variables
-
-Cayman will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
 
 ### Stylesheet
 
