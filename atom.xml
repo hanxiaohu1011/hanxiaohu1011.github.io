@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>tiger&#39;s Blog</title>
+
+  <subtitle>tiger&#39;s Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+
+  <link href="http://yoursite.com/"/>
+  <updated>2020-05-18T15:29:12.862Z</updated>
+  <id>http://yoursite.com/</id>
+
+  <author>
+    <name>tiger</name>
+
+  </author>
+
+  <generator uri="https://hexo.io/">Hexo</generator>
+
+  <entry>
+    <title>Natural Language Generation II</title>
+    <link href="http://yoursite.com/2020/05/17/Natural-Language-Generation-II/"/>
+    <id>http://yoursite.com/2020/05/17/Natural-Language-Generation-II/</id>
+    <published>2020-05-17T11:53:42.000Z</published>
+    <updated>2020-05-18T15:29:12.862Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Natural-Language-Generation-II&quot;&gt;&lt;a href=&quot;#Natural-Language-Generation-II&quot; class=&quot;headerlink&quot; title=&quot;Natural Language Generation II&quot;&gt;&lt;/a&gt;Natural Language Generation II&lt;/h1&gt;&lt;h2 id=&quot;Image-Captioning-and-Beyond&quot;&gt;&lt;a href=&quot;#Image-Captioning-and-Beyond&quot; class=&quot;headerlink&quot; title=&quot;Image Captioning and Beyond&quot;&gt;&lt;/a&gt;Image Captioning and Beyond&lt;/h2&gt;&lt;p&gt;Image Captioning 可以看作是一种 data-to-text 的生成过程。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="NLP" scheme="http://yoursite.com/tags/NLP/"/>
+
+      <category term="NLG" scheme="http://yoursite.com/tags/NLG/"/>
+
+  </entry>
+
+  <entry>
+    <title>全自动调参环境部署</title>
+    <link href="http://yoursite.com/2020/05/17/%E5%85%A8%E8%87%AA%E5%8A%A8%E8%B0%83%E5%8F%82%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+    <id>http://yoursite.com/2020/05/17/%E5%85%A8%E8%87%AA%E5%8A%A8%E8%B0%83%E5%8F%82%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</id>
+    <published>2020-05-17T00:09:46.000Z</published>
+    <updated>2020-05-17T01:36:48.405Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;全自动调参环境部署&quot;&gt;&lt;a href=&quot;#全自动调参环境部署&quot; class=&quot;headerlink&quot; title=&quot;全自动调参环境部署&quot;&gt;&lt;/a&gt;全自动调参环境部署&lt;/h1&gt;&lt;p&gt;昨天终于完成了 snode5 上的全自动调参环境部署，目前 docker + fitlog 调参体验良好（雾），记录一下过程。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+      <category term="Environment" scheme="http://yoursite.com/categories/Review/Environment/"/>
+
+
+      <category term="Machine Learning" scheme="http://yoursite.com/tags/Machine-Learning/"/>
+
+      <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+
+  </entry>
+
+  <entry>
+    <title>2019-CCF-BDCI-Competition-Review</title>
+    <link href="http://yoursite.com/2020/05/05/2019-CCF-BDCI-Competition-Review/"/>
+    <id>http://yoursite.com/2020/05/05/2019-CCF-BDCI-Competition-Review/</id>
+    <published>2020-05-05T09:41:34.000Z</published>
+    <updated>2020-05-12T02:05:00.418Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;2019-CCF-BDCI-Competition-Review&quot;&gt;&lt;a href=&quot;#2019-CCF-BDCI-Competition-Review&quot; class=&quot;headerlink&quot; title=&quot;2019-CCF-BDCI-Competition-Review&quot;&gt;&lt;/a&gt;2019-CCF-BDCI-Competition-Review&lt;/h1&gt;&lt;h2 id=&quot;比赛简介&quot;&gt;&lt;a href=&quot;#比赛简介&quot; class=&quot;headerlink&quot; title=&quot;比赛简介&quot;&gt;&lt;/a&gt;比赛简介&lt;/h2&gt;&lt;p&gt;我们选取的赛题是&lt;a href=&quot;https://www.datafountain.cn/competitions/351&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;离散制造过程中典型工件的质量符合率预测&lt;/a&gt;，赛题背景为：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在高端制造领域，随着数字化转型的深入推进，越来越多的数据可以被用来分析和学习，进而实现制造过程中重要决策和控制环节的智能化，例如生产质量管理。从数据驱动的方法来看，生产质量管理通常需要完成质量影响因素挖掘及质量预测、质量控制优化等环节，本赛题将关注于第一个环节，基于对潜在的相关参数及历史生产数据的分析，完成质量相关因素的确认和最终质量符合率的预测。在实际生产中，该环节的结果将是后续控制优化的重要依据。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;赛题的任务是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于在实际生产中，同一组工艺参数设定下生产的工件会出现多种质检结果，所以我们针对各组工艺参数定义其质检标准符合率，即为该组工艺参数生产的工件的质检结果分别符合优、良、合格与不合格四类指标的比率。相比预测各个工件的质检结果，预测该质检标准符合率会更具有实际意义。&lt;/p&gt;
+&lt;p&gt;本赛题要求参赛者对给定的工艺参数组合所生产工件的质检标准符合率进行预测。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简单来说，对于给定的生产工艺参数，生产出来的工件会有相应的质量数据，以及根据质量数据进行质检得到的质检结果。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="Boosting" scheme="http://yoursite.com/tags/Boosting/"/>
+
+      <category term="Data Science" scheme="http://yoursite.com/tags/Data-Science/"/>
+
+  </entry>
+
+  <entry>
+    <title>Natural Language Generation I</title>
+    <link href="http://yoursite.com/2020/04/28/Natural-Language-Generation-I/"/>
+    <id>http://yoursite.com/2020/04/28/Natural-Language-Generation-I/</id>
+    <published>2020-04-28T03:24:17.000Z</published>
+    <updated>2020-05-04T09:57:18.587Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Natural-Language-Generation-I&quot;&gt;&lt;a href=&quot;#Natural-Language-Generation-I&quot; class=&quot;headerlink&quot; title=&quot;Natural Language Generation I&quot;&gt;&lt;/a&gt;Natural Language Generation I&lt;/h1&gt;&lt;h2 id=&quot;NLG-Tasks&quot;&gt;&lt;a href=&quot;#NLG-Tasks&quot; class=&quot;headerlink&quot; title=&quot;NLG Tasks&quot;&gt;&lt;/a&gt;NLG Tasks&lt;/h2&gt;&lt;p&gt;传统的 NLG 问题可以被划分为如下子问题，越靠前的问题与实际数据的结合越紧密，越往后的问题越具有普适性：&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="NLP" scheme="http://yoursite.com/tags/NLP/"/>
+
+      <category term="NLG" scheme="http://yoursite.com/tags/NLG/"/>
+
+  </entry>
+
+  <entry>
+    <title>Neural Style Transfer Review IV</title>
+    <link href="http://yoursite.com/2020/04/19/Neural-Style-Transfer-Review-IV/"/>
+    <id>http://yoursite.com/2020/04/19/Neural-Style-Transfer-Review-IV/</id>
+    <published>2020-04-19T12:27:03.000Z</published>
+    <updated>2020-05-08T00:52:58.135Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Neural-Style-Transfer-Review-IV&quot;&gt;&lt;a href=&quot;#Neural-Style-Transfer-Review-IV&quot; class=&quot;headerlink&quot; title=&quot;Neural Style Transfer Review IV&quot;&gt;&lt;/a&gt;Neural Style Transfer Review IV&lt;/h1&gt;&lt;h2 id=&quot;数据集&quot;&gt;&lt;a href=&quot;#数据集&quot; class=&quot;headerlink&quot; title=&quot;数据集&quot;&gt;&lt;/a&gt;数据集&lt;/h2&gt;&lt;h3 id=&quot;Flickr-30k&quot;&gt;&lt;a href=&quot;#Flickr-30k&quot; class=&quot;headerlink&quot; title=&quot;Flickr 30k&quot;&gt;&lt;/a&gt;Flickr 30k&lt;/h3&gt;&lt;p&gt;30k 图片，每张图片 5 句标注，并且和图中的实体有对应关系。但像 “outside, parade” 这样的场景或者事件信息没有对应的实体标注。&lt;/p&gt;
+&lt;h3 id=&quot;MS-COCO&quot;&gt;&lt;a href=&quot;#MS-COCO&quot; class=&quot;headerlink&quot; title=&quot;MS COCO&quot;&gt;&lt;/a&gt;MS COCO&lt;/h3&gt;&lt;p&gt;200k 有标注，每个图片 5 句标注，但多是以物体为主。&lt;/p&gt;
+&lt;h3 id=&quot;Google’s-Conceptual-Captions&quot;&gt;&lt;a href=&quot;#Google’s-Conceptual-Captions&quot; class=&quot;headerlink&quot; title=&quot;Google’s Conceptual Captions&quot;&gt;&lt;/a&gt;Google’s Conceptual Captions&lt;/h3&gt;&lt;p&gt;使用互联网上带有 Alt-text HTML 标签的图片，做一定的预处理之后得到 3M 图片&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="CV" scheme="http://yoursite.com/tags/CV/"/>
+
+      <category term="Style Transfer" scheme="http://yoursite.com/tags/Style-Transfer/"/>
+
+  </entry>
+
+  <entry>
+    <title>RBTree</title>
+    <link href="http://yoursite.com/2020/04/18/RBTree/"/>
+    <id>http://yoursite.com/2020/04/18/RBTree/</id>
+    <published>2020-04-18T09:44:00.000Z</published>
+    <updated>2020-04-18T11:53:06.291Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;RBTree&quot;&gt;&lt;a href=&quot;#RBTree&quot; class=&quot;headerlink&quot; title=&quot;RBTree&quot;&gt;&lt;/a&gt;RBTree&lt;/h1&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="Algorithom" scheme="http://yoursite.com/tags/Algorithom/"/>
+
+  </entry>
+
+  <entry>
+    <title>Neural Style Transfer Review III</title>
+    <link href="http://yoursite.com/2020/04/09/Neural-Style-Transfer-Review-III/"/>
+    <id>http://yoursite.com/2020/04/09/Neural-Style-Transfer-Review-III/</id>
+    <published>2020-04-09T02:44:11.000Z</published>
+    <updated>2020-04-11T14:03:45.741Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Neural-Style-Transfer-Review-III&quot;&gt;&lt;a href=&quot;#Neural-Style-Transfer-Review-III&quot; class=&quot;headerlink&quot; title=&quot;Neural Style Transfer Review III&quot;&gt;&lt;/a&gt;Neural Style Transfer Review III&lt;/h1&gt;&lt;h2 id=&quot;实验及评价&quot;&gt;&lt;a href=&quot;#实验及评价&quot; class=&quot;headerlink&quot; title=&quot;实验及评价&quot;&gt;&lt;/a&gt;实验及评价&lt;/h2&gt;&lt;p&gt;从 qualitative evaluation 和 quantitative evaluation 两个方面进行分析。&lt;/p&gt;
+&lt;h3 id=&quot;数据集&quot;&gt;&lt;a href=&quot;#数据集&quot; class=&quot;headerlink&quot; title=&quot;数据集&quot;&gt;&lt;/a&gt;数据集&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;10 style images: try to cover a range of image characteristics;&lt;/li&gt;
+&lt;li&gt;20 content images: select from &lt;em&gt;NPRgeneral&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;MS-COCO is used for training (offline model) and all content images are not used in training.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了公平性，本文作者尽量使用原作者提供的模型及参数，尽量使得每组模型都达到最好的效果。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="CV" scheme="http://yoursite.com/tags/CV/"/>
+
+      <category term="Style Transfer" scheme="http://yoursite.com/tags/Style-Transfer/"/>
+
+  </entry>
+
+  <entry>
+    <title>Neural Style Transfer Review II</title>
+    <link href="http://yoursite.com/2020/04/05/Neural-Style-Transfer-Review-II/"/>
+    <id>http://yoursite.com/2020/04/05/Neural-Style-Transfer-Review-II/</id>
+    <published>2020-04-05T15:11:46.000Z</published>
+    <updated>2020-04-14T03:46:19.270Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Neural-Style-Transfer-Review-II&quot;&gt;&lt;a href=&quot;#Neural-Style-Transfer-Review-II&quot; class=&quot;headerlink&quot; title=&quot;Neural Style Transfer Review II&quot;&gt;&lt;/a&gt;Neural Style Transfer Review II&lt;/h1&gt;&lt;h2 id=&quot;快速图像重建&quot;&gt;&lt;a href=&quot;#快速图像重建&quot; class=&quot;headerlink&quot; title=&quot;快速图像重建&quot;&gt;&lt;/a&gt;快速图像重建&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;提出的原因：解决慢速图像重建效率过低的问题，只需一次前向传播即可完成风格的转换。&lt;/li&gt;
+&lt;li&gt;问题的目标：在训练集 $I_c$ （内容图片），$I_s$ （风格图片，一种风格或者多种风格）上训练网络 $g$，找到参数 $\theta$:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta^{*}=\underset{\theta}{\arg \min } \mathcal{L}_{\text {total}}\left(I_{c}, I_{s}, g_{\theta^{*}}\left(I_{c}\right)\right), I^{*}=g_{\theta^{*}}\left(I_{c}\right)&lt;/script&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="CV" scheme="http://yoursite.com/tags/CV/"/>
+
+      <category term="Style Transfer" scheme="http://yoursite.com/tags/Style-Transfer/"/>
+
+  </entry>
+
+  <entry>
+    <title>Batch Normalization</title>
+    <link href="http://yoursite.com/2020/04/01/Batch-Normalization/"/>
+    <id>http://yoursite.com/2020/04/01/Batch-Normalization/</id>
+    <published>2020-04-01T06:54:19.000Z</published>
+    <updated>2020-05-15T02:48:17.258Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Batch-Normalization&quot;&gt;&lt;a href=&quot;#Batch-Normalization&quot; class=&quot;headerlink&quot; title=&quot;Batch Normalization&quot;&gt;&lt;/a&gt;Batch Normalization&lt;/h1&gt;&lt;p&gt;传统的 Mini-batch 随机梯度下降法训练神经网络时，调参工作变得非常复杂，网络学习的效率不高，主要是因为 Internal Convariate Shift 问题，而 Batch Normalization 就是用来解决这个问题的一个方案。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="Machine Learning" scheme="http://yoursite.com/tags/Machine-Learning/"/>
+
+  </entry>
+
+  <entry>
+    <title>Neural Style Transfer Review I</title>
+    <link href="http://yoursite.com/2020/03/29/Neural-Style-Transfer-Review/"/>
+    <id>http://yoursite.com/2020/03/29/Neural-Style-Transfer-Review/</id>
+    <published>2020-03-29T13:54:05.000Z</published>
+    <updated>2020-05-12T09:46:24.753Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Neural-Style-Transfer-Review-I&quot;&gt;&lt;a href=&quot;#Neural-Style-Transfer-Review-I&quot; class=&quot;headerlink&quot; title=&quot;Neural Style Transfer Review I&quot;&gt;&lt;/a&gt;Neural Style Transfer Review I&lt;/h1&gt;&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;在众多图像风格迁移算法中，图像被看作内容和风格的结合。图像风格迁移算法也可以看成是图像重建算法和纹理建模算法的结合。&lt;/p&gt;
+&lt;h3 id=&quot;纹理建模&quot;&gt;&lt;a href=&quot;#纹理建模&quot; class=&quot;headerlink&quot; title=&quot;纹理建模&quot;&gt;&lt;/a&gt;纹理建模&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;纹理的定义：只有比较抽象的定义，包含任意模式的图像（image containing arbitrary patterns）；&lt;/li&gt;
+&lt;li&gt;纹理建模的定义：生成纹理的一种方式（同样是抽象定义）；&lt;/li&gt;
+&lt;li&gt;纹理建模的目标：给定一个纹理样例，生成一幅新的图像使得观察到新图像的纹理特征与样例相似。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;image-20200404095233929.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;常用的方法主要有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于统计分布的参数化纹理建模方法：将纹理建模为 N 阶统计量；&lt;/li&gt;
+&lt;li&gt;基于 MRF 的非参数化纹理建模方法：用 patch 相似度匹配进行逐点合成。&lt;/li&gt;
+&lt;li&gt;e.g. &lt;img src=&quot;image-20200404094204319.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;纹理建模的主要任务是研究如何表示图像的纹理特征，在图像风格转换中，主要用于对风格的建模和提取。&lt;/p&gt;
+&lt;h3 id=&quot;图像重建&quot;&gt;&lt;a href=&quot;#图像重建&quot; class=&quot;headerlink&quot; title=&quot;图像重建&quot;&gt;&lt;/a&gt;图像重建&lt;/h3&gt;&lt;p&gt;图像重建的主要目的是利用输入的图像特征尽可能对图像进行还原。这和传统的图像特征提取其实属于相反的过程，在 CNN 中，我们也经常根据某个卷积层的特征对图像进行重建，以了解该卷积层的作用（根据图像的哪一部分建立特征）。在图像风格转换领域中，图像重建主要用于对图像内容的建模和提取。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic2.zhimg.com/80/v2-1af1ab49257d807f9cdfe396871e0839_720w.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;常用的算法也可以分为两类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于在线图像优化的慢速图像重建方法：即给定输入图片，建立 Loss，并使用梯度下降对 Loss 进行优化，最终得到输出图片，优点是效果不错，但缺点同样明显，那就是速度太慢，实时性不够；o&lt;/li&gt;
+&lt;li&gt;基于离线模型优化的快速图像重建方法：即训练好一个网络，对于给定输入只需一次前向传播即可得到输出图片。优点是实时性较好，缺点是有可能不如慢速方法精细。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以上述的方法相结合我们就可以得到 5 大类图像风格迁移算法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于在线图像优化的慢速图像重建方法：&lt;ul&gt;
+&lt;li&gt;基于统计分布的参数化纹理建模方法；&lt;/li&gt;
+&lt;li&gt;基于 MRF 的非参数化纹理建模方法；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;基于离线模型优化的快速图像重建方法：&lt;ul&gt;
+&lt;li&gt;Per-style-per-model;&lt;/li&gt;
+&lt;li&gt;Multiple-style-per-model;&lt;/li&gt;
+&lt;li&gt;Arbitrary-style-per-model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    </summary>
+
+
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
+
+
+      <category term="CV" scheme="http://yoursite.com/tags/CV/"/>
+
+      <category term="Style Transfer" scheme="http://yoursite.com/tags/Style-Transfer/"/>
+
+  </entry>
+
+  <entry>
+    <title>Introduction to IncludeOS</title>
+    <link href="http://yoursite.com/2020/03/25/Introduction-to-IncludeOS/"/>
+    <id>http://yoursite.com/2020/03/25/Introduction-to-IncludeOS/</id>
+    <published>2020-03-25T07:54:18.000Z</published>
+    <updated>2020-03-26T12:26:35.365Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;Introduction-to-IncludeOS&quot;&gt;&lt;a href=&quot;#Introduction-to-IncludeOS&quot; class=&quot;headerlink&quot; title=&quot;Introduction to IncludeOS&quot;&gt;&lt;/a&gt;Introduction to IncludeOS&lt;/h1&gt;&lt;p&gt;这是我和队友在 2019 年操作系统（H）课程中做的项目，这里做一个简单的回顾。&lt;/p&gt;
+&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;h3 id=&quot;Unikernel&quot;&gt;&lt;a href=&quot;#Unikernel&quot; class=&quot;headerlink&quot; title=&quot;Unikernel&quot;&gt;&lt;/a&gt;Unikernel&lt;/h3&gt;&lt;p&gt;传统内核都选择对硬件做了抽象，避免应用程序直接访问硬件资源，只提供抽象层提供的接口，例如 Linux 的应用程序全部运行在用户态，对硬件的操作全部通过系统调用进入内核态实现。这样做当然有好处，可以隐藏复杂的硬件细节，使用户专注于逻辑实现，但用户态和内核态之间的切换开销很大，损伤应用性能（在通常情况下影响不大，但对一些特殊场景，例如延迟敏感的 IoT 设备，会对影响性能）。&lt;/p&gt;
+&lt;p&gt;Unikernel 不区分用户态和内核态，所有应用都运行在同一层级，减少不必要的硬件抽象，（大多数 Unikernel）每次只运行一个应用，最大程度精简以提升性能表现。&lt;/p&gt;
+&lt;p&gt;当前社会，IoT 设备具有极大发展，具有很多有潜力的应用场景，我们希望在大量基于 ARM 架构的 IoT 设备上部署 Unikernel，因为 Unikernel 有如下优势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更高的运行性能；&lt;/li&gt;
+&lt;li&gt;更高的资源利用效率；&lt;/li&gt;
+&lt;li&gt;更好的隔离性和安全性；&lt;/li&gt;
+&lt;li&gt;更好的可迁移性和可伸缩性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但 Unikernel 也存在缺陷，最大的缺点就是调试非常困难。&lt;/p&gt;
+&lt;p&gt;经过调研，我们选择了 IncludeOS 作为基础的 Unikernel 实现，并将其移植到 ARM 上。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="复盘" scheme="http://yoursite.com/categories/%E5%A4%8D%E7%9B%98/"/>
+
+
+      <category term="System" scheme="http://yoursite.com/tags/System/"/>
+
+      <category term="Unikernel" scheme="http://yoursite.com/tags/Unikernel/"/>
+
+  </entry>
+
+  <entry>
+    <title>CAPCG 复盘（三）</title>
+    <link href="http://yoursite.com/2020/03/24/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/03/24/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%B8%89%EF%BC%89/</id>
+    <published>2020-03-24T01:37:26.000Z</published>
+    <updated>2020-03-25T04:45:05.303Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;CAPCG-复盘（三）&quot;&gt;&lt;a href=&quot;#CAPCG-复盘（三）&quot; class=&quot;headerlink&quot; title=&quot;CAPCG 复盘（三）&quot;&gt;&lt;/a&gt;CAPCG 复盘（三）&lt;/h1&gt;&lt;h2 id=&quot;应用背景&quot;&gt;&lt;a href=&quot;#应用背景&quot; class=&quot;headerlink&quot; title=&quot;应用背景&quot;&gt;&lt;/a&gt;应用背景&lt;/h2&gt;&lt;p&gt;本次比赛的应用为 POP (Parallel Ocean Program)。&lt;/p&gt;
+&lt;p&gt;POP 是由 LANL 在能源部的 CHAMMP 计划赞助下开发的，该计划将大规模并行计算机引入了气候建模领域。上世纪60年代末，美国国家海洋和大气管理局地球物理流体动力学实验室的 Kirk Bryan 和 Michael Cox  首次开发了 Bryan-Cox-semtner 海洋模型，而 POP 是在这个模型的基础上进行开发的。POP 的第一个版本是由 Semtner 和 Chervin 开发的。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;这是一个为了研究海洋气候系统提出的三维洋流模型，适用于海洋学和气候学研究；&lt;/li&gt;
+&lt;li&gt;研究人员通过实验发现，POP 模拟得到的结果总体上符合真实数据的大致分布趋势，但是仍然需要在更高分辨率下进行预测才能进一步减小与真实数据之间的误差；&lt;/li&gt;
+&lt;li&gt;由于 POP 里面的 stencil 计算以及 global reduction 存在一定的访存及通信瓶颈，所以实际工作性能不能达到平台的最佳性能（计算的瓶颈较小，访存的瓶颈较大）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;应用运行的大体过程如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对地图进行网格划分，每个进程分配部分任务；&lt;/li&gt;
+&lt;li&gt;每个进程独自计算自己的任务；&lt;/li&gt;
+&lt;li&gt;每个网格需要和相邻的网格交换边界信息；&lt;/li&gt;
+&lt;li&gt;每次迭代过程需要若干次 &lt;code&gt;global reduction&lt;/code&gt; 收集全局信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在这里多说一句，海洋模型为什么会跟共轭梯度法有关联。这是因为海洋模型本质上是通过连续的微分方程描述的，而求解微分方程的常用做法是离散化，之后通过一定的变换问题就能转化为求解 $Ax=b$ 这种线性方程，也就可以使用共轭梯度法进行求解了。&lt;/p&gt;
+&lt;p&gt;应用中主要求解的是正压 (barotropic) 模型，stencil operator 的作用是差分，可以发现源码中矩阵乘法的部分都是使用 stencil 计算。这也和微分方程的离散化有所对应（可以看成稀疏矩阵乘法的一种替代形式）。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="复盘" scheme="http://yoursite.com/categories/%E5%A4%8D%E7%9B%98/"/>
+
+
+      <category term="Optimization" scheme="http://yoursite.com/tags/Optimization/"/>
+
+      <category term="Math" scheme="http://yoursite.com/tags/Math/"/>
+
+  </entry>
+
+  <entry>
+    <title>CAPCG 复盘（二）</title>
+    <link href="http://yoursite.com/2020/03/23/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/03/23/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
+    <published>2020-03-23T03:42:38.000Z</published>
+    <updated>2020-03-25T01:35:14.222Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;CAPCG-复盘（二）&quot;&gt;&lt;a href=&quot;#CAPCG-复盘（二）&quot; class=&quot;headerlink&quot; title=&quot;CAPCG 复盘（二）&quot;&gt;&lt;/a&gt;CAPCG 复盘（二）&lt;/h1&gt;&lt;h2 id=&quot;PCG-简介&quot;&gt;&lt;a href=&quot;#PCG-简介&quot; class=&quot;headerlink&quot; title=&quot;PCG 简介&quot;&gt;&lt;/a&gt;PCG 简介&lt;/h2&gt;&lt;h3 id=&quot;Conjugate-Gradient&quot;&gt;&lt;a href=&quot;#Conjugate-Gradient&quot; class=&quot;headerlink&quot; title=&quot;Conjugate Gradient&quot;&gt;&lt;/a&gt;Conjugate Gradient&lt;/h3&gt;&lt;p&gt;经过了前面&lt;strike&gt;（充分的）&lt;/strike&gt;的铺垫，终于到了 Conjugate Gradient 的介绍，其实共轭梯度法本质上就是将 Conjugate Direction 中构建的搜索方向的一组线性无关向量 $u_{(i)}$ 设定为残差 $r_{(i)}$，这样做的原因有以下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;残差在最速下降法中被作为搜索方向使用，虽然在 Conjugate Direction 中的搜索方向构建与最速下降法不同，但仍有相似之处，可以拿来尝试；&lt;/li&gt;
+&lt;li&gt;由之前的推导中 $d_{(i)}^{T} r_{(j)} =0$ 可知，残差具有和之前搜索方向正交的性质，这使得我们新的搜索方向总是与之前的搜索方向线性无关，除非 $r_{(j)} = 0$，但这种情况下问题已经被解决了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因为 $d_{(i)}$ 都是由 $r_{(i)}$ 构建而来，所以 $\operatorname{span}\left\{r_{(0)}, r_{(1)}, \ldots, r_{(i-1)}\right\} = \operatorname{span}\left\{d_{(0)}, d_{(1)}, \ldots, d_{(i-1)}\right\}$。并且每个残差都与之前的搜索方向正交，于是可以推出：&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+\begin{aligned}
+u_{i}^{T} r_{(j)} &amp;= 0 \quad i&lt;j \\
+\Rightarrow r_{(i)}^{T} r_{(j)} &amp;= 0 \quad i&lt;j
+\end{aligned}&lt;/script&gt;
+
+    </summary>
+
+
+      <category term="复盘" scheme="http://yoursite.com/categories/%E5%A4%8D%E7%9B%98/"/>
+
+
+      <category term="Optimization" scheme="http://yoursite.com/tags/Optimization/"/>
+
+      <category term="Math" scheme="http://yoursite.com/tags/Math/"/>
+
+  </entry>
+
+  <entry>
+    <title>CAPCG 复盘（一）</title>
+    <link href="http://yoursite.com/2020/03/22/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/03/22/CAPCG-%E5%A4%8D%E7%9B%98%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2020-03-22T04:28:00.000Z</published>
+    <updated>2020-04-11T03:22:27.609Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;CAPCG-复盘（一）&quot;&gt;&lt;a href=&quot;#CAPCG-复盘（一）&quot; class=&quot;headerlink&quot; title=&quot;CAPCG 复盘（一）&quot;&gt;&lt;/a&gt;CAPCG 复盘（一）&lt;/h1&gt;&lt;h2 id=&quot;PCG-简介&quot;&gt;&lt;a href=&quot;#PCG-简介&quot; class=&quot;headerlink&quot; title=&quot;PCG 简介&quot;&gt;&lt;/a&gt;PCG 简介&lt;/h2&gt;&lt;p&gt;预处理共轭梯度法 (Preconditioned Conjugate Gradient) 从共轭梯度法 (Conjugate Gradient) 衍生而来，是常用的用于求解线性方程组 $Ax = b$ 的数值解法，目前主要应用于数值计算领域。&lt;/p&gt;
+&lt;h3 id=&quot;Conjugate-Gradient&quot;&gt;&lt;a href=&quot;#Conjugate-Gradient&quot; class=&quot;headerlink&quot; title=&quot;Conjugate Gradient&quot;&gt;&lt;/a&gt;Conjugate Gradient&lt;/h3&gt;&lt;p&gt;共轭梯度法主要适用于系数矩阵 $A$ 较为稀疏的情况下。如果矩阵 $A$ 不是稀疏的，那么最好的求解方法是对系数矩阵进行分解，这样也可以快速对不同的 $b$ 求得答案，在系数矩阵很大而且稀疏的情况下，分解产生的矩阵可能含有比 $A$ 更多的非零元素，并且在时间和空间上均不具有优势，所以使用迭代法是一种较好的选择。&lt;/p&gt;
+
+    </summary>
+
+
+      <category term="复盘" scheme="http://yoursite.com/categories/%E5%A4%8D%E7%9B%98/"/>
+
+
+      <category term="Optimization" scheme="http://yoursite.com/tags/Optimization/"/>
+
+      <category term="Math" scheme="http://yoursite.com/tags/Math/"/>
+
+  </entry>
+
+  <entry>
+    <title>BERT-illustration</title>
+    <link href="http://yoursite.com/2020/03/20/BERT-illustration/"/>
+    <id>http://yoursite.com/2020/03/20/BERT-illustration/</id>
+    <published>2020-03-20T09:55:25.000Z</published>
+    <updated>2020-05-17T15:17:26.821Z</updated>
+
+    <summary type="html">
+
+      &lt;h1 id=&quot;BERT-illustration&quot;&gt;&lt;a href=&quot;#BERT-illustration&quot; class=&quot;headerlink&quot; title=&quot;BERT illustration&quot;&gt;&lt;/a&gt;BERT illustration&lt;/h1&gt;&lt;h2 id=&quot;发展历史及主要想法&quot;&gt;&lt;a href=&quot;#发展历史及主要想法&quot; class=&quot;headerlink&quot; title=&quot;发展历史及主要想法&quot;&gt;&lt;/a&gt;发展历史及主要想法&lt;/h2&gt;&lt;p&gt;BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, BERT 是 Bidirectional Encoder Representations from Transformers 的缩写。这个预训练模型让 NLP 领域进入了类似于当时 CV 界的后 ImageNet 时代（大量预训练模型应用）。&lt;/p&gt;
+&lt;h3 id=&quot;How-BERT-is-developed&quot;&gt;&lt;a href=&quot;#How-BERT-is-developed&quot; class=&quot;headerlink&quot; title=&quot;How BERT is developed&quot;&gt;&lt;/a&gt;How BERT is developed&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Step 1：在大量数据上（Wikipedia 和 大量书籍）进行半监督预训练&lt;ul&gt;
+&lt;li&gt;预训练任务：Language Modeling，包含多个子任务：预测 masked 词，判读句子上下文关系等；&lt;/li&gt;
+&lt;li&gt;这使得预训练模型具有一定的特征抽取和判断上下文联系（提取语义）等能力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Step 2：在特定任务中进行监督学习&lt;ul&gt;
+&lt;li&gt;根据特定任务的不同，按照一定的约定方式处理输入；&lt;/li&gt;
+&lt;li&gt;输入内容通过预训练模型，后面根据任务要求添加分类器（e.g. Linear + Softmax）等得到输出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Model-Architecture&quot;&gt;&lt;a href=&quot;#Model-Architecture&quot; class=&quot;headerlink&quot; title=&quot;Model Architecture&quot;&gt;&lt;/a&gt;Model Architecture&lt;/h3&gt;&lt;div class=&quot;table-container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;encoder&lt;/th&gt;
+&lt;th&gt;hidden units(in feedforward network)&lt;/th&gt;
+&lt;th&gt;attention heads (in multi-head attention)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;BERT-BASE&lt;/td&gt;
+&lt;td&gt;12 encoder layers&lt;/td&gt;
+&lt;td&gt;768 hidden units&lt;/td&gt;
+&lt;td&gt;12 attention heads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BERT-LARGE&lt;/td&gt;
+&lt;td&gt;24 encoder layers&lt;/td&gt;
+&lt;td&gt;1024 hidden units&lt;/td&gt;
+&lt;td&gt;16 attention heads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+    </summary>
+
+
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+
+
+      <category term="NLP" scheme="http://yoursite.com/tags/NLP/"/>
+
+      <category term="BERT" scheme="http://yoursite.com/tags/BERT/"/>
+
+  </entry>
+
+</feed>
